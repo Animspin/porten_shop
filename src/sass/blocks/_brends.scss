@@ -1,0 +1,16 @@
+.brends {
+    background: $color-bg;
+    padding: 60px 0 80px 0;
+    &__items {
+        display: flex;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .title {
+        margin-bottom: 80px;
+            &::after {
+                bottom: -40px;
+            }
+    }
+}

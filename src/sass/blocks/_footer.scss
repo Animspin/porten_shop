@@ -1,0 +1,78 @@
+.footer {
+    min-height: 400px;
+    background: url('../img/footer_bg.jpg');
+    padding: 80px 0 100px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+    &__about {
+        width: 33.33%;
+    }
+    &__categorys {
+        width: 33.33%;
+    }
+    &__mailing {
+        width: 33.33%;
+    }
+    &__text {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    &__form {
+        margin-top: 37px;
+        input {
+            min-height: 42px;
+            background: rgba(255, 255, 255, 0.6);
+            border: none;
+            padding-left: 10px;
+        }
+        button {
+            min-height: 42px;
+            background: #000;
+            padding: 10px 20px;
+            border: none;
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+        }
+    }
+}
+.subtitle {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.categorys {
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    &__item {
+        min-height: 41px;
+        padding: 10px 20px;
+        background: #000;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #D0D0D0;
+        text-decoration: none;
+    }
+}

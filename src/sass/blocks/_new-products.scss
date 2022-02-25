@@ -1,0 +1,17 @@
+.new-products {
+    background: #000;
+    padding: 120px 0 150px 0;
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 23px;
+        row-gap: 40px;
+        justify-content: space-between;
+    }
+    .title {
+        margin-bottom: 120px;
+            &::after {
+                bottom: -40px;
+            }
+    }
+}
