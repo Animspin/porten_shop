@@ -25,6 +25,12 @@
         margin: 0 auto;
     }
 }
+@media (max-width: 769px) {
+    .container {
+        width: 700px;
+        margin: 0 auto;
+    }
+}
 
 @import 'blocks/header';
 @import 'blocks/promo';
