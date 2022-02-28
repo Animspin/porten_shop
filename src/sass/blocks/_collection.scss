@@ -150,3 +150,14 @@
         }
     }
 }
+@media (max-width: 426px) {
+    .collection {
+        &__items {
+            flex-direction: column;
+            width: 100%;
+        }
+        &__item {
+            width: 80%;
+        }
+    }
+}

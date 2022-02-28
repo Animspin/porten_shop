@@ -46,3 +46,15 @@
         color: #FFFFFF;
     }
 }
+
+@media (max-width: 426px) {
+    .promo {
+        &__main {
+            width: 16rem;
+            height: 16rem;
+        }
+        p {
+            width: 18rem;
+        }
+    }
+}

@@ -31,6 +31,12 @@
         margin: 0 auto;
     }
 }
+@media (max-width: 426px) {
+    .container {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
 
 @import 'blocks/header';
 @import 'blocks/promo';
